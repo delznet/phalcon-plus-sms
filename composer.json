@@ -1,0 +1,23 @@
+{
+  "name": "delz/phalcon-plus-sms",
+  "description": "phalcon sms组件",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sheawey",
+      "email": "sheawey@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.16",
+    "delz/sms":">=1.0",
+    "delz/phalcon-plus":">=1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Delz\\PhalconPlus\\Component\\SMS\\": "Delz/PhalconPlus/Component/SMS"
+    }
+  }
+}
